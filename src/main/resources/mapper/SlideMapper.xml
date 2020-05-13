@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yutianhao.cms.dao.SlideMapper">
+<mapper namespace="com.dsh.cms.dao.SlideMapper">
 	<select id="getSlideList" resultType="Slide">
 		select * from cms_slide 
 	</select>

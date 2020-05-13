@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yutianhao.cms.dao.CategoryMapper">
+<mapper namespace="com.dsh.cms.dao.CategoryMapper">
 	<select id="getCategoriesByChannelId" resultType="Category">
 		select * from cms_category where channel_id=#{channelId}
 	</select>

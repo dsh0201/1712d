@@ -12,7 +12,7 @@
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
 
-	<context:component-scan base-package="com.yutianhao.cms.web.controllers"></context:component-scan>
+	<context:component-scan base-package="com.dsh.cms.web.controllers"></context:component-scan>
 	<context:property-placeholder location="classpath:cms.properties"/>
 	
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -35,13 +35,13 @@
 		<mvc:interceptor>
 			<mvc:mapping path="/my/**"/>
 			<mvc:exclude-mapping path="/resource/**"/>
-			<bean class="com.yutianhao.cms.util.MyInrterceptor"/>
+			<bean class="com.dsh.cms.util.MyInrterceptor"/>
 		</mvc:interceptor>
 		
 		<mvc:interceptor>
 			<mvc:mapping path="/admin/**"/>
 			<mvc:exclude-mapping path="/resource/**"/>
-			<bean class="com.yutianhao.cms.util.AdminInterceptor"/>
+			<bean class="com.dsh.cms.util.AdminInterceptor"/>
 		</mvc:interceptor>
 	</mvc:interceptors>
 	

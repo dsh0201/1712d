@@ -2,7 +2,7 @@
 <!DOCTYPE mapper
    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
      "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.yutianhao.cms.dao.CollectMapper">
+<mapper namespace="com.dsh.cms.dao.CollectMapper">
 	<insert id="insert" useGeneratedKeys="true" keyProperty="id">
 		insert into cms_collect 
 		set text=#{text},url=#{url},
