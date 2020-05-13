@@ -8,7 +8,7 @@
   	  <!-- 定义主要版本号 -->
 	<!-- 一次定义 反复使用 类似Java变量 下面使用时${}取版本号 -->
 	<properties>
-		<spring.version>5.1.5.RELEASE</spring.version>
+		<spring.version>5.2.6.RELEASE</spring.version>
 		<mybatis.version>3.4.2</mybatis.version>
 		<log4j.version>1.2.17</log4j.version>
 		<druid.version>1.0.9</druid.version>
